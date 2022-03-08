@@ -44,6 +44,12 @@
     <title>AR TEST</title>
   </head>
   <body>
+     <div class="controls">
+      <button id="button">Get camera</button>
+      <select id="select">
+        <option></option>
+      </select>
+    </div>
     <a-scene renderer="alpha: true" embedded arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth:1280; displayHeight:960;">
       <!--ALL ASSETS-->
       <a-asset>
@@ -68,11 +74,6 @@
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
-    <div class="controls">
-      <button id="button">Get camera</button>
-      <select id="select">
-        <option></option>
-      </select>
-    </div>
+    
   </body>
 </html>
